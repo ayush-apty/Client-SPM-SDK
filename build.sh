@@ -11,7 +11,7 @@ NEW_VERSION=$1
 
 # 2. Calculate checksum and store it
 echo "Calculate new checksum"
-NEW_CHECKSUM=$(swift package compute-checksum Framework.zip)
+NEW_CHECKSUM=$(swift package compute-checksum Frameworks.zip)
 echo "print out new shasum for convenience reasons"
 echo "New checksum is $NEW_CHECKSUM"
 
