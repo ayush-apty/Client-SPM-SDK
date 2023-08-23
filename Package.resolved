@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "mobilliumqrcodereader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mobillium/MobilliumQRCodeReader.git",
+      "state" : {
+        "revision" : "7fd7e642e2823b7fc660a4fc26b62dd621570610",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "socket.io-client-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/socketio/socket.io-client-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "d7846b31a215211e595292425a2fdd6d16177faf"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream",
+      "state" : {
+        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+        "version" : "4.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}
