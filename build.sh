@@ -37,4 +37,4 @@ gh release create "$NEW_VERSION" --generate-notes "./Frameworks.zip"
 
 # 7. Remove zip of XCFramework
 echo "delete downloaded zip file"
-rm Frameworks.zip
+rm -rf Frameworks.zip
