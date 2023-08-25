@@ -3,9 +3,9 @@
 
 import PackageDescription
 
-let version = "1.0.4"
+let version = "1.0.5"
 let moduleName = "Client-SPM"
-let checksum = "3336427fb3e1ac430033b915d5534c0f79fd74e44611b3c583f9137294cbb9bb"
+let checksum = "4bf2fa72c5b7078815a0697e8c0ecab00a3bc44148d1f7a5fbccbc32bf49053e"
 let url = "https://github.com/ayush-apty/Client-SPM-Dist/releases/download/\(version)/\(moduleName).xcframework.zip"
 
 let package = Package(
