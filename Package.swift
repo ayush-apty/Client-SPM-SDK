@@ -3,10 +3,10 @@
 
 import PackageDescription
 
-let version = "1.0.6"
+let version = "1.0.7"
 let moduleName = "Client-SPM"
-let checksum = "70c42a641028665d8cadf94025f970fb65cb429dae71581b1342a5309754adcc"
-let url = "https://github.com/ayush-apty/Client-SPM-Dist/releases/download/\(version)/Frameworks.zip"
+let checksum = "9e282af5fc64a248c6f4ae35a66a57edd725ad7869e485ca19fd5ff6720f1d57"
+let url = "https://github.com/ayush-apty/Client-SPM-SDK/releases/download/\(version)/Frameworks.zip"
 
 let package = Package(
     name: moduleName,
