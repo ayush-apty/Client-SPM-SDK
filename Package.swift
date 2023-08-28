@@ -3,9 +3,9 @@
 
 import PackageDescription
 
-let version = "1.0.8"
+let version = "1.0.9"
 let moduleName = "Client-SPM"
-let checksum = "51dd4f14d34d24fa42852dcf3fe88f460660ef1b3b8f9f2f728397f57f587773"
+let checksum = "b47ab0076902fb3f5ef83586c560723689a7b231332fba568f74f818a2eb10da"
 let url = "https://github.com/ayush-apty/Client-SPM-SDK/releases/download/\(version)/Client-SPM.xcframework.zip"
 
 let package = Package(
@@ -26,6 +26,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: moduleName, url: url, checksum: checksum)
+        .target(name: "\(moduleName)", dependencies: ["MobilliumQRCodeReader", "Socket.IO-Client-Swift"], path: "\(moduleName)"),
+        .binaryTarget(name: "\(moduleName)Bin", url: url, checksum: checksum)
     ]
 )
